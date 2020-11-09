@@ -2,6 +2,11 @@
 
 ![graphql](https://img.shields.io/badge/graphql-15.4.0-brightgreen) ![ioredis](https://img.shields.io/badge/ioredis-4.19.2-brightgreen) ![apollo-server-koa](https://img.shields.io/badge/apollo--server--koa-2.19.0-brightgreen) ![apollo-datasource](https://img.shields.io/badge/apollo--datasource-0.7.2-brightgreen) ![mongoose](https://img.shields.io/badge/mongoose-5.10.13-brightgreen) ![faker](https://img.shields.io/badge/faker-4.1.0-brightgreen) ![cross-env](https://img.shields.io/badge/cross--env-7.0.2-brightgreen)
 
+# 相关项目
+
+1. [gian-blog 前端站点](https://www.github.com/iamgian-coder/gian-blog)
+2. [gian-blog-admin 管理端站点](https://www.github.com/iamgian-coder/gian-blog-admin)
+
 # 技术栈
 
 - ioredis
