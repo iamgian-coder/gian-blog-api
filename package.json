@@ -1,0 +1,36 @@
+{
+  "name": "koa-graphql",
+  "version": "1.0.0",
+  "description": "GianBlog API",
+  "main": "src/server.js",
+  "dependencies": {
+    "apollo-datasource": "^0.7.2",
+    "apollo-server-koa": "^2.19.0",
+    "graphql": "^15.4.0",
+    "ioredis": "^4.19.2",
+    "mongoose": "^5.10.13",
+    "mongoose-paginate-v2": "^1.3.11"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "faker": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon -w src src/server.js"
+  },
+  "keywords": [
+    "api",
+    "apollo",
+    "graphql",
+    "mongoose",
+    "mongodb",
+    "redis",
+    "koa"
+  ],
+  "author": "iamgian-coder",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/iamgian-coder/gian-blog-api.git"
+  },
+  "license": "MIT"
+}
