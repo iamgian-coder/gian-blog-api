@@ -27,7 +27,11 @@
     "redis",
     "koa"
   ],
-  "author": "iamgian-coder",
+  "author": {
+    "name": "Gian",
+    "url": "http://39.97.182.198"
+  },
+  "homepage": "https://github.com/iamgian-coder/gian-blog-api.git",
   "repository": {
     "type": "github",
     "url": "https://github.com/iamgian-coder/gian-blog-api.git"
