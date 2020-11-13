@@ -115,6 +115,7 @@ class MongodbSource extends DataSource {
             .split("\n")
             .filter((line) => !regIsInValidMDLine.test(line))
             .slice(0, 5)
+            .map((line) => "\n" + line)
             .join("\n");
         });
         return result;
@@ -148,6 +149,7 @@ class MongodbSource extends DataSource {
             .split("\n")
             .filter((line) => !regIsInValidMDLine.test(line))
             .slice(0, 5)
+            .map((line) => "\n" + line)
             .join("\n");
         });
         return result;
