@@ -4,6 +4,8 @@ const { articleModel } = require("../mongooseModel");
 
 const { regIsInValidMDLine } = require("../utils");
 
+const perListItemLinesCount = 3;
+
 const fixedWhere = {
   isPublished: true,
   isDeleted: false,
@@ -114,7 +116,7 @@ class MongodbSource extends DataSource {
           doc.markdown = doc.markdown
             .split("\n")
             .filter((line) => !regIsInValidMDLine.test(line))
-            .slice(0, 5)
+            .slice(0, perListItemLinesCount)
             .map((line) => "\n" + line)
             .join("\n");
         });
@@ -148,7 +150,7 @@ class MongodbSource extends DataSource {
           doc.markdown = doc.markdown
             .split("\n")
             .filter((line) => !regIsInValidMDLine.test(line))
-            .slice(0, 5)
+            .slice(0, perListItemLinesCount)
             .map((line) => "\n" + line)
             .join("\n");
         });
